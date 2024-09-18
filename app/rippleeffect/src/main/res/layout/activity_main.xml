@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+
+        android:background="@drawable/ripple_effect"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        android:background="@drawable/ripple_effect" />
+
+    <!--  Áp dụng 2 background cho button thông qua layer-list  -->
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_foreground"
+
+        android:background="@drawable/layer_list" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        android:background="@drawable/ripple_effect"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout"
+            android:textSize="24sp" />
+    </LinearLayout>
+</LinearLayout>
